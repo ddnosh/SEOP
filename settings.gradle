@@ -1,1 +1,3 @@
-include ':app', ':library/treeview'
+include ':app', ':treeview'
+
+project(":treeview").projectDir = new File("library/treeview")
