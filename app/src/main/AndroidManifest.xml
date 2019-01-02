@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.refresh.SmartRefreshLayoutActivity" />
+        <activity android:name=".ui.FrameActivity" />
     </application>
 
 </manifest>

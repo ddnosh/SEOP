@@ -22,9 +22,12 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    //ui->refresh
+    //ui->refresh->smartrefresh
     compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18'
     compile 'com.android.support:recyclerview-v7:28.0.0'
+
+    //ui->tab->smarttablayout
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
 
     implementation project(':treeview')
 }

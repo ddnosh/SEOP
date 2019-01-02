@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">seop</string>
+    <string-array name="tabs">
+        <item>Tab1</item>
+        <item>Tab2</item>
+        <item>Tab3</item>
+    </string-array>
 </resources>
