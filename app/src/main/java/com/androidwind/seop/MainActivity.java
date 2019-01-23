@@ -87,6 +87,8 @@ public class MainActivity extends BaseActivity implements TreeNode.TreeNodeClick
                 startActivity(new Intent(this, SmartRefreshLayoutActivity.class));
             } else if (name.equals("SmartTabLayout")) {
                 readyGo(SmartTabLayoutFragment.class);
+            } else if (name.equals("Java")) {
+                WebPageActivity.newInstance(MainActivity.this, "http://www.baidu.com");
             }
         }
     }
